@@ -1,0 +1,1 @@
+{"name":"next","version":"1.0.0","description":"next js tutorial","main":"index.js","scripts":{"dev":"next dev","build":"next build","start":"next start"},"author":{"name":"rupesh"},"license":"ISC","dependencies":{"isomorphic-unfetch":"^3.0.0","next":"^9.1.4","react":"^16.12.0","react-dom":"^16.12.0"},"readme":"ERROR: No README data found!","_id":"next@1.0.0"}
