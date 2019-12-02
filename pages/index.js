@@ -1,11 +1,14 @@
 import fetch from 'isomorphic-unfetch'
 import Tweet from '../components/tweet'
-import Styled from 'styled-components'
+import Link from 'next/link';
 
 
 const App = ({tweets}) => {
     return (
         <div>
+            <Link href="/about">
+                <a>About Page</a>
+            </Link>
             {
                 tweets.map(t => {
                     return (
